@@ -4,6 +4,9 @@
         @include('elem.head')
     </head>
     <body>
+      <header>
+        <h1>Bevande</h1>
+      </header>
       @yield('content')
     </body>
 </html>
