@@ -27,11 +27,10 @@ h1 {
 }
 
 .price-data {
-  width: 20%;
-  height: 120px;
-  background-color: rgba(39,151,219,0.8);
-  margin-top: 20px;
-  padding-top: 30px;
-  padding-left: 20px;
-  margin-left: 10px;
+  display: flex;
+}
+
+.price-data div {
+  width: 200px;
+  height: 200px;
 }

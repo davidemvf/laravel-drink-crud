@@ -10,8 +10,14 @@
   </div>
 
   <div class="price-data">
-    <p>Prezzo massimo: {{$max_price}} EUR</p>
-    <p>Prezzo minimo: {{$min_price}} EUR</p>
-    <p>Prezzo medio: {{$avg_price_rounded}} EUR</p>
+    <div class="bevande-box">
+      <p>Prezzo massimo: {{$max_price}} EUR</p>
+    </div>
+    <div class="bevande-box">
+      <p>Prezzo minimo: {{$min_price}} EUR</p>
+    </div>
+    <div class="bevande-box">
+      <p>Prezzo medio: {{$avg_price_rounded}} EUR</p>
+    </div>
   </div>
 @endsection
