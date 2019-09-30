@@ -1,1 +1,37 @@
-//
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-left: 10px;
+  font-family: cursive;
+}
+
+.list {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bevande-box {
+  height: 120px;
+  width: 120px;
+  background-color: rgba(39,151,219,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.price-data {
+  width: 20%;
+  height: 120px;
+  background-color: rgba(39,151,219,0.8);
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  margin-left: 10px;
+}
